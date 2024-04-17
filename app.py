@@ -9,17 +9,6 @@ from instaloader.exceptions import TwoFactorAuthRequiredException
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
-def main():
-    return 'Hello World!'
-
-@app.route('/api/user', methods=['GET'])
-def return_user():
-    return jsonify({
-        'name': ['fico4', 'mercy', 'adi'],
-        'email': ['fico@gmail.com', 'mercy@gmail.com', 'adi@gmail.com']
-    })
-
 @app.route('/api/get-follower-count', methods=['POST'])
 def handle_button_click():
     data = request.get_json()

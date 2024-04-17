@@ -13,3 +13,7 @@ git commit -m "Instagram Non Follback list"
 git branch -M main
 git remote add origin https://github.com/fico-aditama/flask-nextjs.git
 git push -u origin main
+
+
+docker tag instafolower:latest fadi132/instafollower:latest
+docker push fadi132/instafollower:latest
