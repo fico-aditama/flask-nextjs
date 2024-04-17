@@ -7,9 +7,9 @@ npm run dev
 
 and automatically will run next.js and flask python
 
-
+git add .
 git init .
-git commit -m "first tst nextjs combine with python flask backend"
+git commit -m "Instagram Non Follback list"
 git branch -M main
 git remote add origin https://github.com/fico-aditama/flask-nextjs.git
 git push -u origin main
