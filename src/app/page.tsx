@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md">
-        <h2 className="text-2xl font-semibold mb-6">Instagram Non Follback User List</h2>
+        <h2 className="text-2xl font-semibold mb-6">Instagram Unfollower</h2>
         <form className="space-y-4">
           <div>
             <label className="block mb-1">Username</label>
@@ -49,7 +49,7 @@ export default function Home() {
             type="submit"
             className="w-full bg-blue-500 text-white rounded-md px-4 py-2 transition duration-300 ease-in-out hover:bg-blue-600"
             onClick={handleClick}>
-            Get Follower Count
+            Get Unfollower List
           </button>
         </form>
 
